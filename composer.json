@@ -1,0 +1,28 @@
+{
+  "name": "rhubarbphp/module-aws-sns-sms-provider",
+  "description": "Provides an SMSProvider for Amazon Simple Notification Service (SNS)",
+  "keywords": [
+    "sms",
+    "amazon",
+    "sns",
+    "rhubarb",
+    "php",
+    "framework"
+  ],
+  "homepage": "http://www.rhubarbphp.com/",
+  "license": "Apache-2.0",
+  "autoload": {
+    "psr-4": {
+      "Rhubarb\\AwsSnsSmsProvider\\": "src/",
+      "Rhubarb\\AwsSnsSmsProvider\\Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "rhubarbphp/rhubarb": "dev-feature/SMSSendable as 1.3.9",
+    "gcdtech/rhubarb-module-aws": "^1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "3.*"
+  }
+}
+

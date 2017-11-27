@@ -4,8 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "35b7f300d5efa5bf06198ea16b1ce89a",
-    "content-hash": "08a789e6c5854304d6eebd589c41e564",
+    "content-hash": "482e757adba09e803a9061ccc6f74918",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -85,7 +84,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2017-10-04 21:57:05"
+            "time": "2017-10-04T21:57:05+00:00"
         },
         {
             "name": "firebase/php-jwt",
@@ -128,7 +127,7 @@
             ],
             "description": "A simple library to encode and decode JSON Web Tokens (JWT) in PHP. Should conform to the current spec.",
             "homepage": "https://github.com/firebase/php-jwt",
-            "time": "2016-07-18 04:51:16"
+            "time": "2016-07-18T04:51:16+00:00"
         },
         {
             "name": "gcdtech/rhubarb-module-aws",
@@ -158,7 +157,7 @@
             "license": [
                 "proprietary"
             ],
-            "time": "2017-02-01 22:00:18"
+            "time": "2017-02-01T22:00:18+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -223,7 +222,7 @@
                 "rest",
                 "web service"
             ],
-            "time": "2017-06-22 18:50:49"
+            "time": "2017-06-22T18:50:49+00:00"
         },
         {
             "name": "guzzlehttp/promises",
@@ -274,7 +273,7 @@
             "keywords": [
                 "promise"
             ],
-            "time": "2016-12-20 10:07:11"
+            "time": "2016-12-20T10:07:11+00:00"
         },
         {
             "name": "guzzlehttp/psr7",
@@ -339,7 +338,7 @@
                 "uri",
                 "url"
             ],
-            "time": "2017-03-20 17:10:46"
+            "time": "2017-03-20T17:10:46+00:00"
         },
         {
             "name": "mtdowling/jmespath.php",
@@ -394,7 +393,7 @@
                 "json",
                 "jsonpath"
             ],
-            "time": "2016-12-03 22:08:25"
+            "time": "2016-12-03T22:08:25+00:00"
         },
         {
             "name": "psr/http-message",
@@ -444,20 +443,61 @@
                 "request",
                 "response"
             ],
-            "time": "2016-08-06 14:39:51"
+            "time": "2016-08-06T14:39:51+00:00"
         },
         {
-            "name": "rhubarbphp/rhubarb",
-            "version": "dev-feature/SMSSendable",
+            "name": "rhubarbphp/module-sms",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/RhubarbPHP/Rhubarb.git",
-                "reference": "21e43fec158dbea068634052c3765638858009c9"
+                "url": "https://github.com/RhubarbPHP/Module.Sms.git",
+                "reference": "883e143a9bc5b321f1400f23a81b45825081a699"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/RhubarbPHP/Rhubarb/zipball/21e43fec158dbea068634052c3765638858009c9",
-                "reference": "21e43fec158dbea068634052c3765638858009c9",
+                "url": "https://api.github.com/repos/RhubarbPHP/Module.Sms/zipball/883e143a9bc5b321f1400f23a81b45825081a699",
+                "reference": "883e143a9bc5b321f1400f23a81b45825081a699",
+                "shasum": ""
+            },
+            "require": {
+                "rhubarbphp/rhubarb": "^1.4"
+            },
+            "require-dev": {
+                "codeception/codeception": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Rhubarb\\Sms\\": "src/",
+                    "Rhubarb\\Sms\\Tests\\": "tests/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "description": "A Sms module for Rhubarb",
+            "homepage": "http://www.rhubarbphp.com/",
+            "keywords": [
+                "framework",
+                "php",
+                "rhubarb",
+                "sms"
+            ],
+            "time": "2017-11-27T09:59:34+00:00"
+        },
+        {
+            "name": "rhubarbphp/rhubarb",
+            "version": "1.4.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/RhubarbPHP/Rhubarb.git",
+                "reference": "30d5b5dd6da27abe58b827806d4a5ef5ed035a7e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/RhubarbPHP/Rhubarb/zipball/30d5b5dd6da27abe58b827806d4a5ef5ed035a7e",
+                "reference": "30d5b5dd6da27abe58b827806d4a5ef5ed035a7e",
                 "shasum": ""
             },
             "require": {
@@ -492,7 +532,7 @@
                 "framework",
                 "php"
             ],
-            "time": "2017-09-29 15:16:45"
+            "time": "2017-11-16T15:32:42+00:00"
         }
     ],
     "packages-dev": [
@@ -555,7 +595,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2014-09-02 10:13:14"
+            "time": "2014-09-02T10:13:14+00:00"
         },
         {
             "name": "phpunit/php-file-iterator",
@@ -602,7 +642,7 @@
                 "filesystem",
                 "iterator"
             ],
-            "time": "2016-10-03 07:40:28"
+            "time": "2016-10-03T07:40:28+00:00"
         },
         {
             "name": "phpunit/php-text-template",
@@ -643,7 +683,7 @@
             "keywords": [
                 "template"
             ],
-            "time": "2015-06-21 13:50:34"
+            "time": "2015-06-21T13:50:34+00:00"
         },
         {
             "name": "phpunit/php-timer",
@@ -692,7 +732,7 @@
             "keywords": [
                 "timer"
             ],
-            "time": "2017-02-26 11:10:40"
+            "time": "2017-02-26T11:10:40+00:00"
         },
         {
             "name": "phpunit/php-token-stream",
@@ -742,7 +782,7 @@
             "keywords": [
                 "tokenizer"
             ],
-            "time": "2014-03-03 05:10:30"
+            "time": "2014-03-03T05:10:30+00:00"
         },
         {
             "name": "phpunit/phpunit",
@@ -815,7 +855,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2014-10-17 09:04:17"
+            "time": "2014-10-17T09:04:17+00:00"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -864,7 +904,7 @@
                 "mock",
                 "xunit"
             ],
-            "time": "2013-01-13 10:24:48"
+            "time": "2013-01-13T10:24:48+00:00"
         },
         {
             "name": "symfony/yaml",
@@ -913,21 +953,12 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2017-06-01 20:52:29"
+            "time": "2017-06-01T20:52:29+00:00"
         }
     ],
-    "aliases": [
-        {
-            "alias": "1.3.9",
-            "alias_normalized": "1.3.9.0",
-            "version": "dev-feature/SMSSendable",
-            "package": "rhubarbphp/rhubarb"
-        }
-    ],
+    "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "rhubarbphp/rhubarb": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

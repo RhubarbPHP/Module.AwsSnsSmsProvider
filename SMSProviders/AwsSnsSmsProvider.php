@@ -5,7 +5,7 @@ namespace Rhubarb\AwsSnsSmsProvider\SMSProviders;
 use Aws\Sns\SnsClient;
 use Gcdtech\Aws\Settings\AwsSettings;
 use Rhubarb\Crown\Sendables\Sendable;
-use Rhubarb\Crown\Sendables\SMS\SMSProvider;
+use Rhubarb\Sms\Sendables\Sms\SmsProvider;
 
 class AwsSnsSmsProvider extends SMSProvider
 {

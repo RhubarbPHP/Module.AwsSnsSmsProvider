@@ -18,11 +18,11 @@
     }
   },
   "require": {
-    "rhubarbphp/rhubarb": "dev-feature/SMSSendable as 1.3.9",
-    "gcdtech/rhubarb-module-aws": "^1.0"
+    "rhubarbphp/rhubarb": "^1.4.0",
+    "gcdtech/rhubarb-module-aws": "^1.0",
+    "rhubarbphp/module-sms": "^1.0.1"
   },
   "require-dev": {
     "phpunit/phpunit": "3.*"
   }
 }
-

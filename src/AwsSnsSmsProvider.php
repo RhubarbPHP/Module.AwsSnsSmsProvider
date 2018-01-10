@@ -33,7 +33,10 @@ class AwsSnsSmsProvider extends SMSProvider
      */
     public function send(Sendable $sendable)
     {
-        foreach($sendable->getRecipients() as $recipient) {
+        if (!isset($this->client)) {
+            $this->getClient();
+        }
+        foreach ($sendable->getRecipients() as $recipient) {
             $this->client->publish(['Message' => $sendable->getText(), 'PhoneNumber' => $recipient]);
         }
     }

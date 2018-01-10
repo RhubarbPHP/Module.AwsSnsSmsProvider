@@ -13,8 +13,7 @@
   "license": "Apache-2.0",
   "autoload": {
     "psr-4": {
-      "Rhubarb\\AwsSnsSmsProvider\\": "src/",
-      "Rhubarb\\AwsSnsSmsProvider\\Tests\\": "tests/"
+      "Rhubarb\\AwsSnsSmsProvider\\SMSProviders\\": "src/"
     }
   },
   "require": {

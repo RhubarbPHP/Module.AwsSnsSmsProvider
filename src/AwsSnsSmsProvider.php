@@ -3,7 +3,7 @@
 namespace Rhubarb\AwsSnsSmsProvider\SMSProviders;
 
 use Aws\Sns\SnsClient;
-use Gcdtech\Aws\Settings\AwsSettings;
+use Rhubarb\AwsSnsSmsProvider\SMSProviders\Settings\AwsSnsSettings;
 use Rhubarb\Crown\Sendables\Sendable;
 use Rhubarb\Sms\Sendables\Sms\SmsProvider;
 
@@ -15,7 +15,7 @@ class AwsSnsSmsProvider extends SMSProvider
     public function getClient()
     {
         if (!isset($this->client)) {
-            $awsSettings = AwsSettings::singleton();
+            $awsSettings = AwsSnsSettings::singleton();
             $settings = $awsSettings->getClientSettings();
 
             $this->client = new SnsClient($settings);
